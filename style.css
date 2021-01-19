@@ -1,0 +1,84 @@
+.container{
+    height: 35%;
+    width: 35%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 1px;
+    align-items: center;
+    transition: center;
+}
+
+input{
+    cursor: pointer;
+}
+
+.monthYr{
+    font-size: 20px;
+    text-align: center;
+}
+
+.mon-year{
+    width: auto;
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: cornflowerblue;
+}
+
+.week{
+    width: auto;
+    border: 1px solid black;
+    background-color: cornsilk;
+}
+
+table{
+    width: 100%;
+    /* display: flex; */
+    text-align: center;
+    /* flex-wrap: wrap; */
+    padding: 2px;
+}
+
+.days{
+    background-color: lightblue;
+    display: flex;
+    padding: 2px;
+    text-align: center;
+    margin: 1px;
+    flex-wrap: wrap;
+}
+
+.days >* {
+    flex: 3em;
+    margin-block: 0.6em;
+}
+
+.days input{
+    width: 35px;
+    height: 35px;
+    border-radius: 15%;
+}
+.currentDay{
+    background-color: rgb(89, 222, 255);
+    border: 1px solid blue;
+    border-radius: 35%;
+}
+
+.prev-date, .next-date{
+    color: rgb(105, 90, 90);
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+
+div{
+    font-size: 20px;
+}
+
+.pre, .next{
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.thisMonthDates{
+    cursor: pointer;
+}
