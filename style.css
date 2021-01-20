@@ -1,6 +1,6 @@
 .container{
-    height: 35%;
-    width: 35%;
+    height: auto;
+    width: 450px;
     box-sizing: border-box;
     border: 2px solid black;
     padding: 1px;
